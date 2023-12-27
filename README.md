@@ -8,6 +8,7 @@
   Solve with us the most mind-boggling DSA questions to ace your skills
 </p>
 
+
 ## Why DSA?
 Today's World contains lots and lots of data. When you need to deal with the data you must store it somewhere, and storing it doesn’t finish our work right? Because you need to fetch it whenever it is required and perform related operations on it. In what way you store your data has a lot to deal with how fast you can fetch and work on it. If you give your data a proper structure, we can easily perform the required operations on it.
 
@@ -36,7 +37,7 @@ The data structures used to solve the problems in this repo will be from basics 
 
 
 You can take up any of the existing issues and solve those problems or create a new issue with a question and contribute your solution to it!<br/> 
-Contribution period ends: 26th January 2024
+Contribution period ends: 28th January 2024
 
 
 ## How to get started?
