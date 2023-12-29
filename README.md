@@ -53,6 +53,25 @@ You can refer to the following resources on Git and Github to get started and co
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
 
+## Where to add the solutions of the leetcode question and in which format
+![Alt text](image.png)
+If the Question Folder Exists:
+-If the assigned question already has a folder within the repository and no one has added a solution:
+-Go to the specific question folder.
+-Create a new file named solution.cpp or solution.java.
+-Add your code for the function part of the question as presented in LeetCode.
+-Ensure the code is well-formatted, free of grammar errors, and follows good coding practices.
+
+If the Question Folder Doesn't Exist:
+-First ask the project leads once.
+-If the assigned question isn't present in any folders:
+-Identify the latest day's folder (e.g., Day5).
+-Create a new folder with the format q1-NameOfTheQuestion under the latest day's folder.
+-Inside this new folder, create a file named solution.cpp or solution.java.
+-Add your code for the function part of the question as presented in LeetCode.
+-Ensure clarity, remove grammar errors, and format the code neatly, similar to a GitHub README.
+
+The overall goal is to organize solutions by question number and name within the appropriate day's folder. If the question folder already exists, add your solution inside; otherwise, create the folder structure for the new question and include your code there.
 
 ## Prizes 
 - Top 3 contributors ❄️ <br/> 
