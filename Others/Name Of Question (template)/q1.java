@@ -1,4 +1,3 @@
-package day1.q1_binary_search;
 public class q1{
 
     public static char nextGreatestLetter(char[] letters, char target) {
