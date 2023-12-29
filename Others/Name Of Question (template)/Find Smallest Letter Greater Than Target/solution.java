@@ -1,4 +1,4 @@
-public class q1{
+public class solution{
 
     public static char nextGreatestLetter(char[] letters, char target) {
         for (int i = 0 ; i < letters.length ; i++){
