@@ -48,8 +48,3 @@ void solve(int row, int n) {
         }
     }
 }
-
-    solve(0, n);
-    
-    return 0;
-}
