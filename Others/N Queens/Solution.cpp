@@ -1,6 +1,3 @@
-#include<iostream>
-using namespace std;
-
 char cell[101][101];
 int sol_count = 1;
 
@@ -51,17 +48,6 @@ void solve(int row, int n) {
         }
     }
 }
-
-int main()
-{
-    int n;
-    cin >> n;
-
-    for(int i=0; i<n; i++) {
-        for(int j=0; j<n; j++) {
-            cell[i][j] = 'x';
-        }
-    }
 
     solve(0, n);
     
