@@ -7,6 +7,7 @@
 ### Return true if you can make every string in words equal using any number of operations, and false otherwise.
 
  
+![image](https://github.com/i-am-SnehaChauhan/LeetCode_Q/assets/94298791/c9fd3e24-4fef-46c7-9670-7a1f6b30732e)
 
 
 ## Constraints:
