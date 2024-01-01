@@ -1,3 +1,4 @@
+```
 import java.util.*;
 
 public class day2_q3_solution {
@@ -14,3 +15,4 @@ public class day2_q3_solution {
 
     }
 }
+```
