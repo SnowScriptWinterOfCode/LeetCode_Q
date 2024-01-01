@@ -1,9 +1,9 @@
-C++
+# C++
 
 
-Memorization
+## Memorization
 
-
+```
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -39,6 +39,7 @@ int unboundedKnapsack(int n, int W, vector<int>& val, vector<int>& wt) {
     return knapsackUtil(wt, val, n - 1, W, dp);
     
 }
+```
 
 
 
@@ -62,9 +63,8 @@ int unboundedKnapsack(int n, int W, vector<int>& val, vector<int>& wt) {
 
 
 
-
-Tabulation
-
+## Tabulation
+```
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -99,6 +99,7 @@ int unboundedKnapsack(int n, int W, vector<int>& val, vector<int>& wt) {
     return dp[n - 1][W]; 
     
 }
+```
 
 
 
@@ -117,13 +118,12 @@ int unboundedKnapsack(int n, int W, vector<int>& val, vector<int>& wt) {
 
 
 
-
-Java
-
-
-Memorization
+# Java
 
 
+## Memorization
+
+```
 import java.util.*;
 
 class TUF {
@@ -165,6 +165,7 @@ class TUF {
     }
     
 }
+```
 
 
 
@@ -176,10 +177,9 @@ class TUF {
 
 
 
+## Tabulation
 
-Tabulation
-
-
+```
 import java.util.*;
 
 class TUF {
@@ -217,3 +217,4 @@ class TUF {
     }
     
 }
+```
