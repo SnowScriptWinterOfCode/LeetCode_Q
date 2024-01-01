@@ -1,4 +1,4 @@
-class Solution {
+"class Solution {
     void solve(vector<int>candidates, int size, int target, int index, vector<int>&output, vector<vector<int>>&ans){
         if(index==size){
             if(target==0)
@@ -21,4 +21,4 @@ public:
         solve(candidates, size, target, 0, output, ans);
         return ans;
     }
-};
+};"
