@@ -1,8 +1,5 @@
 # Maximize Distance to Closest Person(849)
 
-![image](https://github.com/aishwarya-chandra/LeetCode_Q/assets/95757762/c0048782-7ec5-482a-b749-c91d9ab503cd)
-
-
 You are given an array representing a row of seats where seats[i] = 1 represents a person sitting in the ith seat, and seats[i] = 0 represents that the ith seat is empty (0-indexed).
 
 There is at least one empty seat, and at least one person sitting.
