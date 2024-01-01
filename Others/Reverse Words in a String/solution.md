@@ -1,5 +1,5 @@
 (THE CODE)
-
+```
 class Solution {
 
 public:
@@ -67,11 +67,4 @@ public:
     }
 
 };
-
-(CODE ON LEETCODE)
-![Alt text](<Screenshot (26).png>)
-
-(ANSWER ACCEPTED BY LEETCODE)
-![Alt text](<Screenshot (27).png>)
-![Alt text](<Screenshot (28).png>)
-![Alt text](<Screenshot (29).png>)
+```
