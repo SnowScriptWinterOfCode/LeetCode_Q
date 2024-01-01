@@ -10,7 +10,8 @@
 
 ### Given divisor1, divisor2, uniqueCnt1, and uniqueCnt2, return the minimum possible maximum integer that can be present in either array.
  
-![image](https://github.com/i-am-SnehaChauhan/LeetCode_Q/assets/94298791/c9fd3e24-4fef-46c7-9670-7a1f6b30732e)
+![image](https://github.com/i-am-SnehaChauhan/LeetCode_Q/assets/94298791/d9bb61b0-bbe6-4e86-8b52-baa6a1c4b892)
+
 
 
 ## Constraints:
