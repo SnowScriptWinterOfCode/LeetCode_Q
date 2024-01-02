@@ -1,3 +1,4 @@
+```
 class Solution {
     public int findPairs(int[] nums, int k) {
         HashMap<Integer,Integer> map=new HashMap<>();
@@ -17,3 +18,4 @@ class Solution {
         return result;   
     }
 }
+```
