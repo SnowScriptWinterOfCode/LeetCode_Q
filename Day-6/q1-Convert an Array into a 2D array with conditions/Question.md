@@ -1,0 +1,12 @@
+You are given an integer array nums. You need to create a 2D array from nums satisfying the following conditions:
+
+The 2D array should contain only the elements of the array nums.
+Each row in the 2D array contains distinct integers.
+The number of rows in the 2D array should be minimal.
+Return the resulting array. If there are multiple answers, return any of them.
+
+Note that the 2D array can have a different number of elements on each row.
+
+ Example
+
+<img width="529" alt="image" src="https://github.com/SnowScriptWinterOfCode/LeetCode_Q/assets/101282659/ba1268cb-ecfc-4bd4-8df8-6b7d12cd80be">
