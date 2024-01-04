@@ -8,6 +8,10 @@
   Solve with us the most mind-boggling DSA questions to ace your skills
 </p>
 
+## Maintainers
+@bh-g @kratika-Jangid @karishma-2020 and @Nitya-Pasrija 
+
+Please reach out to the maintainers if you get stuck or wish to report someone
 
 ## Why DSA?
 Today's World contains lots and lots of data. When you need to deal with the data you must store it somewhere, and storing it doesn’t finish our work right? Because you need to fetch it whenever it is required and perform related operations on it. In what way you store your data has a lot to deal with how fast you can fetch and work on it. If you give your data a proper structure, we can easily perform the required operations on it.
