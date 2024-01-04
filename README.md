@@ -39,8 +39,23 @@ The data structures used to solve the problems in this repo will be from basics 
 - Please mention your full name on your GitHub handle to be eligible for prizes.
 
 
-You can take up any of the existing issues and solve those problems or create a new issue with a question and contribute your solution to it!<br/> 
-Contribution period ends: 28th January 2024
+You can take up any of the existing issues and contribute your solution to it!<br/> 
+### Contribution period ends: 28th January 2024
+
+## How to add a solution:
+
+1. Navigate to the folder containing the question you want to solve, create a file named "githubUsername--language.md" 
+[For example, if "bh-g" is creating a solution in Python, Java and C++ then filename should be "bh-g--JPC.md"]
+[Similiarly, creating it for only a particular language for example Java would be: "bh-g--J.md"]
+2. We will only consider unique approaches 
+3. Even if you wish to submit a solution in multiple languages such as Java, C++, Python, etc kindly create a single pull request only.
+4. Solutions in the form of images will NOT be accepted.
+5. Use "```" aka backticks to create a code block in your md files, just add them before and after your code 
+The following effect is created by code blocks and we highly recommend it for the sake of clarity. 
+
+```
+printf("Hello, World")
+```
 
 
 ## How to get started?
