@@ -8,6 +8,10 @@
   Solve with us the most mind-boggling DSA questions to ace your skills
 </p>
 
+## Maintainers
+@bh-g @kratika-Jangid @karishma-2020 and @Nitya-Pasrija 
+
+Please reach out to the maintainers if you get stuck or wish to report someone
 
 ## Why DSA?
 Today's World contains lots and lots of data. When you need to deal with the data you must store it somewhere, and storing it doesn’t finish our work right? Because you need to fetch it whenever it is required and perform related operations on it. In what way you store your data has a lot to deal with how fast you can fetch and work on it. If you give your data a proper structure, we can easily perform the required operations on it.
@@ -24,20 +28,34 @@ The data structures used to solve the problems in this repo will be from basics 
 
 ## CONTRIBUTING TO THIS PROJECT
 
-- Take a look at the Existing Issues of your project and find one that interests you or create your own Issues!
+- Take a look at the Existing Issues and find one that interests you!
 - Tag the repository maintainers or issue creators to assign that issue to you.
 - Wait for the Issue to be assigned to you after which you can start working on it.
 - Fork the Repo and create a Branch for any Issue that you are working on.
 - Create a Pull Request which will be promptly reviewed and suggestions will be added to improve it.
 - Once your PR is approved, your changes will be merged into the project. 
 - Add Screenshots to help us know what this Script is all about.
-- Repository-specific contribution information is in the respective READMEs of each repo.
 - Do not abuse and/or use bad language. Ensure you don't insult anyone. Be respectful and inclusive.
 - Please mention your full name on your GitHub handle to be eligible for prizes.
 
 
-You can take up any of the existing issues and solve those problems or create a new issue with a question and contribute your solution to it!<br/> 
-Contribution period ends: 28th January 2024
+You can take up any of the existing issues and contribute your solution to it!<br/> 
+### Contribution period ends: 28th January 2024
+
+## How to add a solution:
+
+1. Navigate to the folder containing the question you want to solve, create a file named "githubUsername--language.md" 
+[For example, if "bh-g" is creating a solution in Python, Java and C++ then filename should be "bh-g--JPC.md"]
+[Similiarly, creating it for only a particular language for example Java would be: "bh-g--J.md"]
+2. We will only consider unique approaches 
+3. Even if you wish to submit a solution in multiple languages such as Java, C++, Python, etc kindly create a single pull request only.
+4. Solutions in the form of images will NOT be accepted.
+5. Use "```" aka backticks to create a code block in your md files, just add them before and after your code 
+The following effect is created by code blocks and we highly recommend it for the sake of clarity. 
+
+```
+printf("Hello, World")
+```
 
 
 ## How to get started?
