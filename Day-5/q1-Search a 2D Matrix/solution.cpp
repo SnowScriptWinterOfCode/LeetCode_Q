@@ -12,3 +12,34 @@ public:
         return false;
     }
 };
+
+// Another solution 
+
+class Solution {
+public:
+    bool searchMatrix(vector<vector<int>>& matrix, int target) {
+        int row = matrix.size() ;
+        int column = matrix[0].size() ;
+        int i,j,mid ;
+        int left = 0 ;
+        int right = (row*column)-1 ;
+
+        while(left<=right) 
+        {
+            mid = left+(right-left)/2 ;
+            i = mid/column ;
+            j = mid%column ;
+
+            if(target == matrix[i][j])
+                return true ;
+            
+            else if(target>matrix[i][j])
+            {
+                left++ ;
+            }
+            else 
+                right-- ;
+        }
+        return false;
+    }
+};
