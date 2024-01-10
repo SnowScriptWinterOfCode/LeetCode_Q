@@ -1,3 +1,5 @@
+problem link: https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/ 
+
 You are given the root of a binary tree with unique values, and an integer start. At minute 0, an infection starts from the node with value start.
 
 Each minute, a node becomes infected if:
@@ -27,8 +29,6 @@ Example 2:
 Input: root = [1], start = 1
 Output: 0
 Explanation: At minute 0, the only node in the tree is infected so we return 0.
-
- 
 
 Constraints:
 
