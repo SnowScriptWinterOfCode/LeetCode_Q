@@ -1,3 +1,4 @@
+```
 class MyStack {
 public:
  queue<int> q1,q2;
@@ -33,6 +34,7 @@ public:
         return q1.empty();
     }
 };
+```
 
 /**
  * Your MyStack object will be instantiated and called as such:
