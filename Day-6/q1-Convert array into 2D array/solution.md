@@ -1,3 +1,4 @@
+```
 //Optimal solution O(N)
     vector<vector<int>> findMatrix(vector<int>& nums) {
         vector<int> freq(nums.size() + 1);
@@ -57,3 +58,4 @@ public:
         return ans;
     }
 };
+```
