@@ -1,3 +1,4 @@
+```
 class Solution {
 public:
 //serves 2 purpose, one is to mark parents and other is to find node corresp to target
@@ -60,3 +61,4 @@ public:
         return time;
     }
 };
+```
