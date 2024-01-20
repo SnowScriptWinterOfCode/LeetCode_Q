@@ -1,3 +1,7 @@
+## Approach:
+<br />1. Initiate two pointers, one from start (left) and one from end (right).
+<br />2. While left<right find the max area possible by inc left and dec right wherever necessary.
+## cpp code: 
 ```
 class Solution {
 public:
