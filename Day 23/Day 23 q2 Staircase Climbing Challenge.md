@@ -1,6 +1,8 @@
 # Staircase Climbing Challenge
 
-You are at the bottom of a staircase, and it takes `n` steps to reach the top. Each time, you can choose to climb either 1 or 2 steps. How many unique ways can you reach the top of the staircase?
+You are at the bottom of a staircase, and it takes `n` steps to reach the top. 
+Each time you can choose to climb either 1 or 2 steps. 
+How many unique ways can you reach the top of the staircase?
 
 ## Example 1
 
