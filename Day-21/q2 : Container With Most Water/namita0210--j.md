@@ -1,3 +1,4 @@
+```
 public class namita0210_java {
 
     public static int maxArea(int[] height) {
@@ -22,3 +23,5 @@ public class namita0210_java {
 
     
 }
+
+```
