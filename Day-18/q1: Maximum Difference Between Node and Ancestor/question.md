@@ -30,4 +30,3 @@ Constraints:
     The number of nodes in the tree is in the range [2, 5000].
     0 <= Node.val <= 105
  Problem link: https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/?envType=daily-question&envId=2024-01-11
-
