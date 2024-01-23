@@ -1,0 +1,27 @@
+## Approach:
+<br />1. Initiate two pointers, one from start (left) and one from end (right).
+<br />2. While left<right find the max area possible by inc left and dec right wherever necessary.
+## cpp code: 
+```
+class Solution {
+public:
+    int maxArea(vector<int>& height) {
+        int left = 0;
+        int right = height.size() - 1;
+        int maxArea = 0;
+
+        while (left < right) {
+            int currentArea = min(height[left], height[right]) * (right - left);
+            maxArea = max(maxArea, currentArea);
+
+            if (height[left] < height[right]) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+
+        return maxArea;
+    }
+};
+```
