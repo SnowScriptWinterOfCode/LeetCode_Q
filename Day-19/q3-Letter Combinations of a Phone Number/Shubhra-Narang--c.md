@@ -1,3 +1,4 @@
+```
 class Solution {
 public:
     void generate(string &digits, int i,string &t, vector<string>&ans, vector<vector<char>>&m){
@@ -29,3 +30,4 @@ public:
         return ans;
     }
 };
+```
