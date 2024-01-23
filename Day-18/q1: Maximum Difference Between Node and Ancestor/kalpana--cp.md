@@ -1,3 +1,4 @@
+```
 class solution {
 public:
      int maxDifference = 0;
@@ -18,3 +19,4 @@ public:
         return maxDifference;
     }
 };
+```
