@@ -22,5 +22,5 @@ Constraints:
 s consists of only '(' and ')'.
 s is a balanced parentheses string.
 
-Problem link->
+Problem link
 https://leetcode.com/problems/score-of-parentheses/
