@@ -1,3 +1,4 @@
+```
 Solution in C++ ->
 
 class Solution {
@@ -21,3 +22,4 @@ public:
         return score;
     }
 };
+```
