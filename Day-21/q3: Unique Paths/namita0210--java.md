@@ -1,3 +1,4 @@
+```
 public class UniquePaths {
     public int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];
@@ -33,3 +34,5 @@ public class UniquePaths {
         System.out.println(solution.uniquePaths(m2, n2)); // Output: 3
     }
 }
+
+```
