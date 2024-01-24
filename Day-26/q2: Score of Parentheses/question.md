@@ -23,5 +23,3 @@ s consists of only '(' and ')'.
 s is a balanced parentheses string.
 
 `Problem link`: [https://leetcode.com/problems/score-of-parentheses/](url)
-
-
