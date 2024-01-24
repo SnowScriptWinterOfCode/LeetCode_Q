@@ -1,3 +1,4 @@
+```
 Solution in C++ ->
 
 class Solution {
@@ -57,3 +58,4 @@ public:
         return time;
     }
 };
+```
