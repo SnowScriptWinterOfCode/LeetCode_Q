@@ -1,5 +1,4 @@
-
-        int scoreOfParentheses(string S) {
+int scoreOfParentheses(string S) {
         stack<int> stack;
         int cur = 0;
         for (char i : S)
@@ -12,4 +11,4 @@
                 stack.pop();
             }
         return cur;
-    }
+}
