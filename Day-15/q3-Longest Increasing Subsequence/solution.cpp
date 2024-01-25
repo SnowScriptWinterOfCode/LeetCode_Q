@@ -1,5 +1,4 @@
-class Solution {
-public:
+
     int lengthOfLIS(vector<int>& nums) {
         int n=nums.size();
        int lis[n];
@@ -14,4 +13,4 @@ public:
         }
         return *max_element(lis,lis+n);
     }
-};
+
