@@ -1,5 +1,4 @@
-class Solution {
-public:
+
         int scoreOfParentheses(string S) {
         stack<int> stack;
         int cur = 0;
