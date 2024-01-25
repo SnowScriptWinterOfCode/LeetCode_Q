@@ -1,6 +1,5 @@
 
-class Solution {
-public:
+
     int search(vector<int>& nums, int t) {
 
           int ans=0,l=0,r=nums.size()-1,mid=0;
