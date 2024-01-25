@@ -1,5 +1,4 @@
-class Solution {
-public:
+
     bool closeStrings(string word1, string word2) {
         int cnt1[26]{};
         int cnt2[26]{};
@@ -18,4 +17,3 @@ public:
         sort(cnt2, cnt2 + 26);
         return equal(cnt1, cnt1 + 26, cnt2);
     }
-};
