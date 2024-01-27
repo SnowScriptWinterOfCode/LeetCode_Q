@@ -1,5 +1,5 @@
+```
 import java.util.*;
-
 public class NetworkDelayTime {
     public int networkDelayTime(int[][] times, int n, int k) {
         // Create a graph to represent the network
@@ -66,3 +66,4 @@ public class NetworkDelayTime {
         System.out.println(solution.networkDelayTime(times3, n3, k3)); // Output: -1
     }
 }
+```

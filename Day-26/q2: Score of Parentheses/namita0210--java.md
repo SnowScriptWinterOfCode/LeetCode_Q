@@ -1,4 +1,4 @@
-import java.util.Stack;
+```import java.util.Stack;
 
 public class ScoreOfParentheses {
     public static int scoreOfParentheses(String s) {
@@ -17,9 +17,6 @@ public class ScoreOfParentheses {
         return score;
     }
 
-    public static void main(String[] args) {
-        System.out.println(scoreOfParentheses("()"));    // Output: 1
-        System.out.println(scoreOfParentheses("(())"));  // Output: 2
-        System.out.println(scoreOfParentheses("()()"));  // Output: 2
-    }
+    
 }
+```

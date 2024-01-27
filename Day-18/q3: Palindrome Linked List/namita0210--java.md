@@ -1,3 +1,4 @@
+``` 
 class ListNode {
     int val;
     ListNode next;
@@ -54,3 +55,5 @@ public class namita0210_java {
 
     
 }
+
+```
