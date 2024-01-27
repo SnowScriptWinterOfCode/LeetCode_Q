@@ -34,4 +34,3 @@ ListNode* sortList(ListNode* head){
     ListNode *point1=sortList(head), *point2=sortList(slow);
 return mergeList(point1,point2);        
 }
-};
