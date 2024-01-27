@@ -1,5 +1,4 @@
-class Solution {
-public:
+
     int maxLength(vector<string>& arr) {
         vector<int> dp = {0};
         int res = 0;
