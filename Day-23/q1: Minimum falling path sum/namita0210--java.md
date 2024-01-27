@@ -1,4 +1,4 @@
-public class MinimumFallingPathSum {
+```public class MinimumFallingPathSum {
     public int minFallingPathSum(int[][] matrix) {
         int n = matrix.length;
 
@@ -32,3 +32,4 @@ public class MinimumFallingPathSum {
 
     
 }
+```
