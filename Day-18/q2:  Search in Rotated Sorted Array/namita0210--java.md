@@ -1,3 +1,4 @@
+```
 public class namita0210_java {
 
     public static int search(int[] nums, int target) {
@@ -33,3 +34,5 @@ public class namita0210_java {
 
     
 }
+
+```
