@@ -1,51 +1,48 @@
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        vector<int> ans;
-        int start =0 ;
-        int n = 
-        int end = nums.size() -1;
-        int flag = 0;
-        while(end>=start){
-            int mid = (start+end)/2;
+        int n =  nums.size() - 1;
+        int low = 0;
+        int high = n;
+        int first = -1;
+        int last = -1;
+        while(high >= low){
+            int mid = low + (high - low) / 2;
 
-            if(nums[mid]== target){
-                if(nums[mid-1]!= target || mid ==0){
-                    ans.push_back(mid);
-                    flag = 1;
+            if(nums[mid] == target){
+                if(mid == 0 || nums[mid - 1] != target){
+                    first = last = mid;
                     break;
                 }else{
-                    end = mid-1;
-                }
-            }else if(nums[mid]>target){
-                end = mid-1;
+                    high = mid - 1;
+                }  
+            }
+            else if(nums[mid] > target){
+                high = mid-1;
             }else{
-                start = mid+1;
+                low = mid+1;
             }
         }
-        if(flag == 0){
-            ans.push_back(-1);
-        }
-        flag =0;
-        while(end>=start){
-            int mid = (start+end)/2;
 
-            if(nums[mid]== target){
-                if(nums[mid+1]!= target || mid ==(nums.size()-1)){
-                    ans.push_back(mid);
-                    return ans;
+        high = n;
+
+        while(high >= low){
+            int mid = low + (high - low) / 2;
+
+            if(nums[mid] == target){
+                if(mid == n || nums[mid + 1] != target){
+                    last = mid;
+                    break;
                 }else{
-                    start = mid+1;
+                    low = mid + 1;
                 }
-            }else if(nums[mid]>target){
-                end = mid-1;
+            }
+            else if(nums[mid] > target){
+                high = mid-1;
             }else{
-                start = mid+1;
+                low = mid+1;
             }
         }
-        if(flag == 0){
-            ans.push_back(-1);
-        }
-        return ans;
+        return {first, last};
     }
-};
+}; 
