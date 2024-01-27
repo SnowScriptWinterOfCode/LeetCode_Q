@@ -6,4 +6,3 @@ public:
         if (l == r) return {-1, -1};
         return {l, r - 1};
     }
-};
