@@ -1,3 +1,7 @@
+## Approach
+<br /> Step 1: Take all substrings and check that it is palindrome or not and store in check matrix.
+<br /> Step 2: For each i, store all indexes such that s[i]....s[j] is a palindrome.
+<br /> Step 3: Now apply dp with memoisation to find minimum partitions.
 ## CPP code
 ```
 class Solution {
