@@ -1,5 +1,44 @@
 ## Approach 1: Using recursion
-
+## cpp code
+```
+class Recursion {
+private:
+    int n;
+    bool isPalindrome(string& s, int l, int r)
+    {
+        while(l < r)
+        {
+            if(s[l++] != s[r--])
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+    int solve(string& s, int idx)
+    {
+        if(idx >= n)
+        {
+            return 0;
+        }
+        int minSteps = INT_MAX;
+        for(int k=idx; k<n; k++)
+        {
+            if(isPalindrome(s, idx, k))
+            {
+                int steps = 1 + solve(s, k+1);
+                minSteps = min(minSteps, steps);
+            }
+        }
+        return minSteps;
+    }
+public:
+    int minCut(string s) {
+        n = s.size();
+        return solve(s, 0) - 1;
+    }
+};
+```
 ## Approach
 <br /> Step 1: Take all substrings and check that it is palindrome or not and store in check matrix.
 <br /> Step 2: For each i, store all indexes such that s[i]....s[j] is a palindrome.
