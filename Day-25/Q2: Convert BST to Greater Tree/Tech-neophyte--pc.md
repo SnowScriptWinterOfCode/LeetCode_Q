@@ -16,6 +16,18 @@ class Solution:
 ```
 ## Approach 2: using recursive dfs
 ## python code:
+```
+def dfs(node, val):
+            if node.right:
+                val = dfs(node.right, val)
+            val += node.val
+            node.val = val
+            if node.left:
+                val = dfs(node.left, val)
+            return val
+        dfs(root, 0)
+        return root
+```
 ## Approach
 This C++ code defines a `Solution` class with a method `convertBST` that takes the root of a binary search tree (BST) and returns the same tree modified to be a Greater Tree. The `convertToGT` function recursively traverses the BST in reverse in-order, updating node values to the sum of greater values encountered so far. The final modified tree is returned.
 ## cpp Code
