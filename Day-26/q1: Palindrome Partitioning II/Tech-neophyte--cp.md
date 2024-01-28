@@ -24,7 +24,7 @@ public:
     }
     int minCut(string s) {
         int n=s.size();
-        int check[n][n];      //to store palindromic status of each substring
+        int check[n][n];      
         for(int g=0;g<n;g++){
             for(int i=0,j=g;j<n;i++,j++){
                 if(g==0){
@@ -38,8 +38,6 @@ public:
                 }
             }
         }
-        
-        //storing all indexes j in adj[i] such that s[i]...s[j] is palindrome
         for(int i=0;i<n;i++){
             for(int j=i;j<n;j++){
                 if(check[i][j]){
@@ -52,4 +50,47 @@ public:
         return help(0,n)-1;       
     }  
 };
+```
+## Python code:
+```
+# python code
+
+class Solution(object):
+    def minCut(self, s):
+        """
+        s="abcgcbafj"
+        :type s: str
+        :rtype: int
+        """
+      
+        if s == s[::-1]:
+            return 0
+        
+        for i in range(len(s)):
+            if s[:i] == s[:i][::-1] and s[i:] == s[i:][::-1]:
+                return 1
+        
+        l=len(s)
+      
+        #d=[[0 for i  in range(l)] for j in range(l)]
+        x=[[0 for i  in range(l)] for j in range(l)]
+        for i in range(l):
+          for j in range(i,l):
+            st=s[i:j+1]
+            #d[i][j]=st
+            x[i][j]= (st==st[::-1])
+                      
+            
+        p=[0 for c in range(l)]
+        for i in range(1,l):
+          if x[0][i]:
+            p[i]=0
+          else:
+            m=float("inf")
+            for j in range(i,0,-1):
+              if x[j][i]: 
+                m=min(m,p[j-1])
+            p[i]=m+1
+        return p[-1]
+  
 ```
