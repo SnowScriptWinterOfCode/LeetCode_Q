@@ -1,4 +1,16 @@
-
+## Python code:
+class Solution:
+    def convertBST(self, root: Optional[TreeNode]) -> Optional[TreeNode]:        
+        stack, summ, node = [], 0, root
+        while stack or node:
+            while node:
+                stack.append(node)
+                node = node.right
+            node = stack.pop()
+            node.val += summ
+            summ = node.val
+            node = node.left
+        return root
 ## Approach
 This C++ code defines a `Solution` class with a method `convertBST` that takes the root of a binary search tree (BST) and returns the same tree modified to be a Greater Tree. The `convertToGT` function recursively traverses the BST in reverse in-order, updating node values to the sum of greater values encountered so far. The final modified tree is returned.
 ## cpp Code
